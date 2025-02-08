@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['fire', 'smoke']
+
+roboflow:
+  workspace: fireandsmoke-gjn7t
+  project: fire_smoke_detection-qudqu
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fireandsmoke-gjn7t/fire_smoke_detection-qudqu/dataset/12
